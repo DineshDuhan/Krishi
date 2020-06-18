@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".basic">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         >
+         <android.support.v7.widget.CardView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:elevation="8dp"
+             app:cardCornerRadius="8dp"
+             android:layout_marginLeft="70dp"
+             android:layout_marginTop="60dp"
+             android:padding="5dp"
+             android:onClick="youtube">
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:background="#64BB5A"
+                 >
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/youtube"/>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:text="How To Use"
+                 android:textSize="26dp"
+                 android:layout_marginLeft="55dp"
+                 android:textColor="#ffff"
+                 android:textStyle="bold"
+                 />
+             </LinearLayout>
+
+         </android.support.v7.widget.CardView>
+
+
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Log In"
+    android:background="#64BB5A"
+    android:textColor="#ffff"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="150dp"
+    android:onClick="logto"/>
+
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Register"
+             android:background="#64BB5A"
+             android:textColor="#ffff"
+             android:textStyle="bold"
+             android:textSize="20dp"
+             android:layout_marginTop="20dp"
+             android:layout_marginLeft="149dp"
+             android:onClick="registerto"/>
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Update Farmer"
+             android:background="#64BB5A"
+             android:textColor="#ffff"
+             android:textStyle="bold"
+             android:textSize="20dp"
+             android:layout_marginTop="20dp"
+             android:layout_marginLeft="113dp"
+             android:onClick="update"/>
+
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Update Customer"
+             android:background="#64BB5A"
+             android:textColor="#ffff"
+             android:textStyle="bold"
+             android:textSize="20dp"
+             android:layout_marginTop="20dp"
+             android:layout_marginLeft="101dp"
+             android:onClick="updatecustomer"/>
+     </LinearLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        android:background="#64BB5A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+</android.support.constraint.ConstraintLayout>

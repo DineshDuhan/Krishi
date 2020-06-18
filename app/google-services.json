@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "157958346929",
+    "firebase_url": "https://krishimantra-4f509.firebaseio.com",
+    "project_id": "krishimantra-4f509",
+    "storage_bucket": "krishimantra-4f509.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157958346929:android:36d8b205b4cc03edbc6a90",
+        "android_client_info": {
+          "package_name": "com.example1.android.krishimantra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157958346929-0t0qe27q8sj141mdcoio5ru9blf03rvu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example1.android.krishimantra",
+            "certificate_hash": "3406bcc0014cd68b40a472c88a07f31a0d86b302"
+          }
+        },
+        {
+          "client_id": "157958346929-et5021rb89v8m9n699q8s2msrm5avnpv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC26v12Ozhynw4NPTW1m0M4feNYKGnrH7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157958346929-et5021rb89v8m9n699q8s2msrm5avnpv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/post_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:background="@drawable/dash1"
+            android:src="@android:drawable/ic_menu_report_image" />
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+
+            android:cursorVisible="true"
+            android:textColor="#E70E0E"
+            android:text="Name" />
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/input_outline"
+            android:text="city" />
+
+        <TextView
+            android:id="@+id/crop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/input_outline"
+            android:text="crop" />
+        <TextView
+            android:id="@+id/rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/input_outline"
+            android:text="rate" />
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/input_outline"
+            android:text="contact" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

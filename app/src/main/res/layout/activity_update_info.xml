@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Profile"
+            android:layout_margin="10dp"
+            android:textColor="#38DF1B"
+            android:textStyle="italic"
+            android:textSize="30dp"/>
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            />
+
+        <EditText
+            android:id="@+id/crop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="crop"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+        <EditText
+            android:id="@+id/rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Rate /100 kg"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+        <EditText
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact No."
+            android:inputType="phone"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="#8F6B1717"
+            android:id="@+id/imageID"/>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/farmerimage"
+    android:text="PIC"
+    android:textColor="#Ffff"
+    android:background="#64BB5A"
+    android:textSize="20dp"
+    android:onClick="click"
+    />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="update"
+            android:background="#64BB5A"
+            android:textColor="#fff"
+            android:onClick="updateinfo"/>
+
+
+    </LinearLayout>
+</ScrollView>

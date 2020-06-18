@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Krishi Mantra</string>
+    <string name="title_activity_basic">basic</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_activity_winter">winter</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_carpooling">carpooling</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_sharegadget">sharegadget</string>
+</resources>

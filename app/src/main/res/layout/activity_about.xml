@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about">
+
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:layout_marginTop="100dp">
+
+     <android.support.v7.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="70dp"
+         android:elevation="5dp"
+         app:cardCornerRadius="5dp"
+         android:layout_margin="20dp"
+
+         app:cardBackgroundColor="#71C475"
+         >
+         <Spinner
+             android:id="@+id/spinner"
+             android:layout_width="match_parent"
+             android:layout_height="70dp"
+             android:background="@android:drawable/btn_dropdown"
+             android:spinnerMode="dropdown"
+             android:backgroundTint="#71C475"
+             android:popupBackground="#71C475"
+
+
+             />
+
+
+     </android.support.v7.widget.CardView>
+
+     <android.support.v7.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:elevation="5dp"
+         app:cardCornerRadius="5dp"
+         android:layout_margin="20dp"
+         android:padding="10dp"
+         app:cardBackgroundColor="#71C475"
+         >
+         <TextView
+             android:padding="10dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Disease"
+             android:textSize="40dp"
+             android:textStyle="bold"
+             android:textColor="#fff"
+             android:layout_marginLeft="90dp"/>
+
+
+     </android.support.v7.widget.CardView>
+
+     <android.support.v7.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:elevation="5dp"
+         app:cardCornerRadius="5dp"
+         android:layout_margin="20dp"
+         android:padding="10dp"
+         app:cardBackgroundColor="#71C475"
+        >
+         <TextView
+             android:padding="10dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Govt. Scheme"
+             android:textSize="40dp"
+             android:textStyle="bold"
+             android:textColor="#fff"
+             android:layout_marginLeft="50dp"/>
+
+
+     </android.support.v7.widget.CardView>
+
+
+
+ </LinearLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_alignParentBottom="true"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        android:background="#64BB5A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+</RelativeLayout>
