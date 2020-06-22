@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example1.android.krishimantra">
+    package="com.example1.android.AgroFarm">
 
     <application
         android:allowBackup="true"
@@ -9,24 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Far_Equip"></activity>
-        <activity android:name=".equip"></activity>
-        <activity android:name=".updatecustomer" />
-        <activity android:name=".customer" />
-        <activity android:name=".UpdateInfo" />
-        <activity android:name=".farmerdeal" />
-        <activity android:name=".paymentcustomer" />
-        <activity android:name=".youtubeplay" />
-        <activity android:name=".register" />
-        <activity android:name=".login" />
-        <activity android:name=".carpooling" />
-        <activity android:name=".wintercrop" />
-        <activity android:name=".about" />
-        <activity android:name=".dash" />
+        <activity android:name="com.example1.android.AgroFarm.Far_Equip"></activity>
+        <activity android:name="com.example1.android.AgroFarm.equip"></activity>
+        <activity android:name="com.example1.android.AgroFarm.updatecustomer" />
+        <activity android:name="com.example1.android.AgroFarm.customer" />
+        <activity android:name="com.example1.android.AgroFarm.UpdateInfo" />
+        <activity android:name="com.example1.android.AgroFarm.farmerdeal" />
+        <activity android:name="com.example1.android.AgroFarm.paymentcustomer" />
+        <activity android:name="com.example1.android.AgroFarm.youtubeplay" />
+        <activity android:name="com.example1.android.AgroFarm.register" />
+        <activity android:name="com.example1.android.AgroFarm.login" />
+        <activity android:name="com.example1.android.AgroFarm.carpooling" />
+        <activity android:name="com.example1.android.AgroFarm.wintercrop" />
+        <activity android:name="com.example1.android.AgroFarm.about" />
+        <activity android:name="com.example1.android.AgroFarm.dash" />
         <activity
-            android:name=".basic"
+            android:name="com.example1.android.AgroFarm.basic"
             android:label="@string/title_activity_basic" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example1.android.AgroFarm.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

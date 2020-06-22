@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:157958346929:android:36d8b205b4cc03edbc6a90",
         "android_client_info": {
-          "package_name": "com.example1.android.krishimantra"
+          "package_name": "com.example1.android.AgroFarm"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "157958346929-0t0qe27q8sj141mdcoio5ru9blf03rvu.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example1.android.krishimantra",
+            "package_name": "com.example1.android.AgroFarm",
             "certificate_hash": "3406bcc0014cd68b40a472c88a07f31a0d86b302"
           }
         },

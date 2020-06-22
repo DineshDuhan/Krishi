@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.example1.android.AgroFarm.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Krishi Mantra"
+        android:text="AgroFarm"
         android:textColor="#034D41"
         android:textSize="50dp"
         android:textStyle="bold"
         android:layout_marginTop="340dp"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="90dp"
         tools:layout_editor_absoluteX="57dp"
         tools:layout_editor_absoluteY="332dp" />
 

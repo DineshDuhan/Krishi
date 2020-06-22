@@ -1,4 +1,4 @@
-package com.example1.android.krishimantra;
+package com.example1.android.AgroFarm;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

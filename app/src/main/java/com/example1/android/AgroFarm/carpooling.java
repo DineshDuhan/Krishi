@@ -1,4 +1,4 @@
-package com.example1.android.krishimantra;
+package com.example1.android.AgroFarm;
 
 import android.Manifest;
 import android.content.Context;
@@ -11,6 +11,8 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example1.android.AgroFarm.R;
 
 public class carpooling extends AppCompatActivity {
     LocationManager locationManager;
@@ -35,7 +37,7 @@ public class carpooling extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_carpooling2);
-
+        setTitle("AgroFarm");
          locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
          locationListener = new LocationListener() {
             @Override

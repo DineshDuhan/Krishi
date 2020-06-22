@@ -1,4 +1,4 @@
-package com.example1.android.krishimantra;
+package com.example1.android.AgroFarm;
 
 public class blog1 {
     private String Name,City,Vehicle,Capacity,Rate,Contact;

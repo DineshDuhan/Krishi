@@ -1,4 +1,4 @@
-package com.example1.android.krishimantra;
+package com.example1.android.AgroFarm;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -12,6 +12,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
+
+import com.example1.android.AgroFarm.R;
 
 public class about extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     private TextView mTextMessage;
